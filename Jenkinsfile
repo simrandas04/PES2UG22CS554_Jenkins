@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Example build step (for C++ project)
                 echo 'Building the C++ project...'
-                sh 'g++ -o my_program my_program.cpp'
+                sh 'g++ -o my_program main.cpp'
             }
         }
 
